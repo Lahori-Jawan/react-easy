@@ -1,0 +1,70 @@
+/**** Add Font Families *****/
+/* @import "https://code.highcharts.com/css/stocktools/gui.css";
+@import "https://code.highcharts.com/css/annotations/popup.css"; */
+@import url('./antd.css');
+
+@font-face {
+  font-family: 'SFProDisplay-Bold';
+  src: url('/src/assets/fonts/SFProDisplay-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Medium';
+  src: url('/src/assets/fonts/SFProDisplay-Medium.woff2') format('woff2'),
+    url('/src/assets/fonts/SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Semibold';
+  src: url('/src/assets/fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('/src/assets/fonts/SFProDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: url('/src/assets/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+    url('/src/assets/fonts/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Light';
+  src: url('/src/assets/fonts/SFProDisplay-Light.woff2') format('woff2'),
+    url('/src/assets/fonts/SFProDisplay-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  outline: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fdfdfd;
+  font-family: 'SFProDisplay-Regular';
+}
